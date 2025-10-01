@@ -1,6 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
+const rootDomain = "rzkydfr.workers.dev";
+const serviceName = "rephweb";
 let serviceName = "";
 let APP_DOMAIN = "";
 
